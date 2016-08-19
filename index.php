@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Oyoyo</title>
+	<title>OYOYO</title>
 
     <?php require_once 'head.php'?>
 </head>

@@ -1,5 +1,5 @@
 <footer>
     <div>
-        <p>	&copy; 2016 Oyoyo</p> 
+        <p>	&copy; 2016 </p> 
     </div>
 </footer>
