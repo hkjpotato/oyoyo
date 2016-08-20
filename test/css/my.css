@@ -1,0 +1,28 @@
+body {
+	padding-top: 40px;
+	/*color: red;*/
+}
+
+header, section {
+	width: 100%;
+	/*border:5px solid black;*/
+	height: 720px;
+}
+
+#languageMenu {
+	/*margin-left: 20px;*/
+	/*margin-right: -80px;*/
+	/*border: 1px solid red;*/
+}
+
+#home {color: #fff; background-color: #1E88E5;}
+#about {color: #fff; background-color: #673ab7;}
+#contact {color: #fff; background-color: #ff9800;}
+
+@media (max-width: 980px) {
+	body {
+		padding-top: 0px;
+		/*color: red;*/
+	}
+
+}
