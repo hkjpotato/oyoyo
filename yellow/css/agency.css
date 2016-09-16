@@ -351,7 +351,7 @@ section h3.section-subheading {
   text-transform: none;
 }
 section#services {
-  /*color: white;*/
+  color: white;
   /*border: 10px solid red;*/
   /*    background-color: @gray-darker;
     background-image: url('../img/map-image.png');
