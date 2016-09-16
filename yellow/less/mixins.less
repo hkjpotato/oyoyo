@@ -5,16 +5,16 @@
 .button-variant(@color; @background; @border) {
   color: @color;
   background-color: @background;
-  border-color: @border;
+  border-color: lighten(@border, 100%);
 
   &:hover,
   &:focus,
   &:active,
   &.active,
   .open .dropdown-toggle& {
-    color: @color;
-    background-color: darken(@background, 10%);
-        border-color: darken(@border, 12%);
+    color: darken(@color, 10%);
+    background-color: @border;
+    border-color: @border;
   }
   &:active,
   &.active,
@@ -50,20 +50,21 @@
 }
 
 // Font Mixins
-
 .serif-font() {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;/* "Droid Serif",*/
+  font-family: "Open Sans", sans-serif;
+  /*font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, cursive; /*"Kaushan Script",*/
 }
 
 .script-font() {
-  font-family: "Helvetica Neue", Helvetica, Arial, cursive; /*"Kaushan Script",*/
+  font-family: "Open Sans", sans-serif;
+  /*font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, cursive; /*"Kaushan Script",*/
 }
 
 .body-font() {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;/*"Roboto Slab", */
+  font-family: "Open Sans", sans-serif;/*"Roboto Slab", */
 }
 
 .heading-font() {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;/*"Montserrat",*/
+  font-family: "Open Sans", sans-serif;/*"Montserrat",*/
   /*text-transform: uppercase;*/
 }
