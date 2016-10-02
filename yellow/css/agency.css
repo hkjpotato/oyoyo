@@ -670,6 +670,15 @@ section#contact {
 section#contact .section-heading {
   color: black;
 }
+section#contact .btn {
+  color: black;
+  border-color: black;
+}
+section#contact .btn:hover {
+  background-color: rgba(230, 230, 230, 0.5);
+  color: #808080;
+  border-color: #808080;
+}
 section#contact .form-group {
   margin-bottom: 25px;
 }
